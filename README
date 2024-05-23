@@ -1,6 +1,6 @@
 This is a simple model for predicting Tidal volume of lungs of human on the basis of age height weight smoke or not and having a lung disease or not.
 First thing of making a model is to find the dataset. For this type of problem, the dataset is not very extensively available on the internet.
-I have used a dataset "tidalvolumefinal.csv" which is attached here. This file contains data of tidal volume of different people based on age height weight smoke and lung disease
+I have used a dataset "tidalfnal.csv" which is attached here. This file contains data of tidal volume of different people based on age height weight smoke and lung disease
 
 MAKING OF MODEL FROM SCRATCH
 
@@ -18,10 +18,10 @@ for deployement of the model Gradio is used to make a web interface which makes 
 
 WEIGHT OF THE PARAMETERS USED IN MODEL AFTER TRAINING
 [-14.42290671-  13.9059368   20.50251955  -7.11183283  51.03988469 -8.24124183]
-['Age','Height (cm)','Weight (kg)','smoker_code','Gender_codes','disease'] respectively
+['Age','Height (cm)','Weight (kg)','Smoker_code','Gender_codes','disease'] respectively
 
 HOW TO RUN THE CODE
-download the dataset provided "tidalvolumefinal.csv"
+download the dataset provided "tidalfnal.csv"
 Open the ipynb file in colab and connect the runtime and upload the dataset and just click on run all cell in the runtime tab. all process will be excuted within one minute
 at last cell a gradio link is generated where user can interact with the model.(note link is temporary and expire soon, please rerun the code to get the new link)
 
