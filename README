@@ -21,7 +21,6 @@ WEIGHT OF THE PARAMETERS USED IN MODEL AFTER TRAINING
 ['Age','Height (cm)','Weight (kg)','Smoker_code','Gender_codes','disease'] respectively
 
 HOW TO RUN THE CODE
-download the dataset provided "tidalfnal.csv"
 Open the ipynb file in colab and connect the runtime  and just click on run all cell in the runtime tab. all process will be excuted within one minute
 at last cell a gradio link is generated where user can interact with the model.(note link is temporary and expire soon, please rerun the code to get the new link)
 
