@@ -24,3 +24,5 @@ HOW TO RUN THE CODE
 download the dataset provided "tidalvolumefinal.csv"
 Open the ipynb file in colab and connect the runtime and upload the dataset and just click on run all cell in the runtime tab. all process will be excuted within one minute
 at last cell a gradio link is generated where user can interact with the model.(note link is temporary and expire soon, please rerun the code to get the new link)
+
+COLAB LINK-https://colab.research.google.com/drive/1hOv1qbFnTa2wFO2oetB3Fk4uX_5QPbjp?usp=sharing
