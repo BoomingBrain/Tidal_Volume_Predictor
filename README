@@ -26,3 +26,9 @@ Open the ipynb file in colab and connect the runtime and upload the dataset and 
 at last cell a gradio link is generated where user can interact with the model.(note link is temporary and expire soon, please rerun the code to get the new link)
 
 COLAB LINK-https://colab.research.google.com/drive/1hOv1qbFnTa2wFO2oetB3Fk4uX_5QPbjp?usp=sharing
+
+WHERE MODEL MIGHT PERFORM POORLY
+
+the dataset majorly contain data of female and have less data of age between 30 to 50. 
+model might predict odd values for this type of data.
+if data has more rows, model performance will imporve. 
